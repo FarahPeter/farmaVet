@@ -97,8 +97,13 @@ footer {
   padding: 2rem 1rem;
   text-align: center;
   color: green;
-  border-radius: 2px;
   position: relative;
+}
+.text-background {
+  background-color: white;
+  padding: 0.3rem 0.3rem;
+  display: inline-block;
+  border-radius: 2px; /* optional, for slightly rounded edges */
 }
 
 .logo {
