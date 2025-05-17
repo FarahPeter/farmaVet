@@ -12,14 +12,14 @@ function submitForm(e) {
   document.getElementById('message').value = '';
 }
 const productImages = [
-  "Images/Products/product1.jpeg",
-  "Images/Products/product2.jpeg",
-  "Images/Products/product3.jpeg",
-  "Images/Products/product4.jpeg",
-  "Images/Products/product5.jpeg",
-  "Images/Products/product6.jpeg",
-  "Images/Products/product7.jpeg",
-  "Images/Products/product8.jpeg",
+  "images/products/product1.jpeg",
+  "images/products/product2.jpeg",
+  "images/products/product3.jpeg",
+  "images/products/product4.jpeg",
+  "images/products/product5.jpeg",
+  "images/products/product6.jpeg",
+  "images/products/product7.jpeg",
+  "images/products/product8.jpeg",
   // Add all image paths here
 ];
 
@@ -45,15 +45,15 @@ setInterval(() => {
 }, 3000);
 
 const serviceImages = [
-  "Images/Services/1.jpeg",
-  "Images/Services/2.jpeg",
-  "Images/Services/3.jpeg",
-    "Images/Services/4.jpeg",
-    "Images/Services/5.jpeg",
-    "Images/Services/6.jpeg",
-    "Images/Services/7.jpeg",
-    "Images/Services/8.jpeg",
-    "Images/Services/9.jpeg",
+  "images/services/1.jpeg",
+  "images/services/2.jpeg",
+  "images/services/3.jpeg",
+  "images/services/4.jpeg",
+  "images/services/5.jpeg",
+  "images/services/6.jpeg",
+  "images/services/7.jpeg",
+  "images/services/8.jpeg",
+  "images/services/9.jpeg",
   // Add all service image paths here
 ];
 
