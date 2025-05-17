@@ -96,7 +96,8 @@ footer {
   background-size: cover;
   padding: 2rem 1rem;
   text-align: center;
-  color: lightseagreen;
+  color: green;
+  border-radius: 2px;
   position: relative;
 }
 
