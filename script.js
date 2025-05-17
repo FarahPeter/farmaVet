@@ -1,3 +1,5 @@
+//V=1
+
 function submitForm(e) {
   e.preventDefault();
   const name = document.getElementById('name').value;
@@ -78,3 +80,4 @@ function prevService() {
 setInterval(() => {
   nextService();
 }, 4000);
+
