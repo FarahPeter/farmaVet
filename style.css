@@ -92,7 +92,7 @@ footer {
   background-color: #2e8b57;
 }
 .header-banner {
-  background: url('Images/landscape/landscape.jpeg') no-repeat center center;
+  background: url('images/landscape/landscape.jpeg') no-repeat center center;
   background-size: cover;
   padding: 2rem 1rem;
   text-align: center;
