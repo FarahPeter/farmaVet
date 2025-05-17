@@ -42,7 +42,7 @@ function prevImage() {
 // Auto-cycle images every 5 seconds
 setInterval(() => {
   nextImage();
-}, 3000);
+}, 4000);
 
 const serviceImages = [
   "images/services/1.jpeg",
@@ -77,4 +77,4 @@ function prevService() {
 // Auto-cycle service images every 5 seconds
 setInterval(() => {
   nextService();
-}, 3000);
+}, 4000);
