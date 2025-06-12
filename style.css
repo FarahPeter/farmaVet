@@ -106,14 +106,18 @@ footer {
   background-size: cover;
   padding: 2rem 1rem;
   text-align: center;
-  color: green;
+  color: white;
   position: relative;
 }
+
 .text-background {
-  background-color: white;
+  background: rgba(255, 255, 255, 0.2); /* semi-transparent white */
+  backdrop-filter: blur(8px); /* blur effect */
+  -webkit-backdrop-filter: blur(8px); /* for Safari support */
   padding: 0.3rem 0.3rem;
   display: inline-block;
-  border-radius: 2px; /* optional, for slightly rounded edges */
+  border-radius: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* optional border for depth */
 }
 
 .logo {
