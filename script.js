@@ -84,3 +84,31 @@ setInterval(() => {
   nextService();
 }, 4000);
 
+
+
+const aboutImages = [
+  "images/About/1.jpeg",
+  // Add all image paths here
+];
+
+let currentaboutImage = 0;
+const aboutimageElement = document.getElementById("about-image");
+
+function showaboutImage(index) {
+  aboutimageElement.src = aboutImages[index];
+}
+
+function nextaboutImage() {
+  currentaboutImage = (currentaboutImage + 1) % aboutImages.length;
+  showaboutImage(currentaboutImage);
+}
+
+function prevaboutImage() {
+  currentaboutImage = (currentaboutImage - 1 + aboutImages.length) % aboutImages.length;
+  showaboutImage(currentaboutImage);
+}
+// Auto-cycle images every 5 seconds
+setInterval(() => {
+  nextaboutImage();
+}, 4000);
+
