@@ -22,6 +22,9 @@ const productImages = [
   "images/products/product6.jpeg",
   "images/products/product7.jpeg",
   "images/products/product8.jpeg",
+  "images/products/product9.jpeg",
+  "images/products/product10.jpeg",
+  "images/products/product11.jpeg",
   // Add all image paths here
 ];
 
